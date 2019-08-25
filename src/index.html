@@ -1,15 +1,137 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  
+    <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Best Friends Forever</title>
+
   </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
+
+  <header>
+  <div align="center"> <img src="/home/laboratoria156/Downloads/bff.gif" width="400" height="300">
+  </div>
+
+
+
+<div class="container" align="center">
+    <h1>Best Friends Forever</h1> 
+</div>
+</header>
+
+<br>
+
+
+
+ <body> 
+   <div align="center">
+<p> Ingresa tu nombre para comenzar </p>
+
+<input id="name" type="text"placeholder="ingresa tu nombre">
+<input type="button" onclick="acept()"value="Aceptar">
+
+<script> function acept(){
+const name=document.getElementById("name").value; //ingresar nombre
+userww.innerHTML="Hola  " +name+"!"
+} </script>   
+
+<h2>
+   <p id="userww" ></p>
+</h2>
+</div>
+
+
+<div class="caja">Bienvenid@ a BFF's!!! . Aqui podras transformar tus mensajes  a mensajes secretos !!
+  
+</div>
+
+<div align="center">
+<iframe src="https://giphy.com/embed/YR2kBGBukmxR2PZIf8" width="200" height="150" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/YR2kBGBukmxR2PZIf8">via GIPHY</a></p>
+</div>
+
+
+
+<div style="width:1000px; padding:3px;">
+
+
+    <div style="width:600px; background:rgb(134, 235, 248); float:left;">
+<section>
+    <h2 align=center>Instrucciones</h2>
+    <p>Para transformar a Mensaje Secreto</p>
+    <br>
+<p> Paso 1 : Escribe tu mensaje</p>
+
+<p> Paso 2 : Elige un Idioma Secreto</p>
+
+<p> Paso 3 : Haz "Click" en el boton "cifrar"</p>
+
+<p> Paso 4 :Tu mensaje secreto esta listo!. Con el boton derecho del Mouse puedes copiar tu mensaje para compartirlo con tus amigas! </p>
+<br>
+<p>Para Leer tu Mensaje Secreto</p>
+
+<p> Paso 1 : Escribe tu mensaje (puedes copiar y pegar, con el boton derecho del Mouse)</p>
+
+<p> Paso 2 : Elige el Idioma Secreto con el que se transformo </p>
+
+<p> Paso 3 : Haz "Click" en el boton "descifrar"</p>
+
+<p> Paso 4 :Tu mensaje secreto esta descifrado!. </p>
+
+
+  
+
+
+<img align=right src="/home/laboratoria156/Downloads/vinilo-unicornio-infantil.jpg.png" alt="" width="200" height="200" > 
+</div>
+</div>
+</section>
+
+<div style="width:600px; background:rgb(248, 195, 213); float:right;">
+<section >
+    <form>
+      <div align=center>
+        <h2>Mensajes</h2>
+
+
+<p>Ingresa tu mensaje</p1><br><br>
+        <input type="text" id="mensajePlano"/><br><br><br>
+        <p>Selecciona Idioma</p>
+        <input type="number" id="offset"/><br><br>
+
+        <button id="bcifrar" type="button">CIFRAR</button>
+        <button id="bdescifrar" type="button">DESCIFRAR</button><br><br>
+        <p> Tu Mensaje Secreto</p><br>
+        <input type="text" id="resultadoC"/><br><br>
+
+
+        <button id="blimpiar">Limpiar</button>
+        <br><br>
+        
+      </div>
+
+    </form>
+    </section>
+  </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+    </div>
   </body>
+  </div>
+</div>
+ 
+<footer >
+ 
+
+  
+
+</footer>
+
+
 </html>
+
+
